@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+
+  <listeners>
+    <listener class-name="com.hright.testng.RetryListener"></listener>
+    <listener class-name="com.hright.testng.TestResultListener"></listener>
+  </listeners>
+
+  <test name="Hright">
+    <classes>
+      <class name="com.hright.test.LoginTest"/>
+      <class name="com.hright.test.LeaveBalanceTest"/>
+      <class name="com.hright.test.MyAssertTest"/>
+    </classes>
+  </test> <!-- Hright -->
+
+</suite> <!-- Default Suite -->

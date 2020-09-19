@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 3.328 s <<< FAILURE! - in TestSuite
+setUp(com.hright.test.LeaveBalanceTest)  Time elapsed: 3.158 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+  (Driver info: chromedriver=72.0.3626.7 (efcef9a3ecda02b2132af215116a03852d08b9cb),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-PMM4AS6', ip: '192.168.199.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{message=unknown error: cannot find Chrome binary
+  (Driver info: chromedriver=72.0.3626.7 (efcef9a3ecda02b2132af215116a03852d08b9cb),platform=Windows NT 10.0.18362 x86_64), platform=ANY}]
+Session ID: a1126a08d9090e86a89c8c9a593ac7c2
+	at com.hright.test.LeaveBalanceTest.setUp(LeaveBalanceTest.java:23)
+
+setUp(com.hright.test.LoginTest)  Time elapsed: 0.01 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+  (Driver info: chromedriver=72.0.3626.7 (efcef9a3ecda02b2132af215116a03852d08b9cb),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-PMM4AS6', ip: '192.168.199.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{message=unknown error: cannot find Chrome binary
+  (Driver info: chromedriver=72.0.3626.7 (efcef9a3ecda02b2132af215116a03852d08b9cb),platform=Windows NT 10.0.18362 x86_64), platform=ANY}]
+Session ID: ba5d3f17bb4090fbfa400e7acac319ab
+	at com.hright.test.LoginTest.setUp(LoginTest.java:24)
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.hright.test.AttendanceTest">
+        <methods>
+          <include name="selectLeave"/>
+          <include name="selectOvertime"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.hright.test.AttendanceTest -->
+      <class name="com.hright.test.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.hright.test.LoginTest -->
+      <class name="com.hright.test.RosterTest">
+        <methods>
+          <include name="screen"/>
+          <include name="selectEmpno"/>
+          <include name="setUp"/>
+          <include name="updateEmpno"/>
+        </methods>
+      </class> <!-- com.hright.test.RosterTest -->
+      <class name="com.hright.test.LeaveBalanceTest">
+        <methods>
+          <include name="VerifyBalance"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hright.test.LeaveBalanceTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

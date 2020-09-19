@@ -1,0 +1,54 @@
+package com.hright.test;
+
+import com.csvreader.CsvReader;
+import com.hright.demo.Module;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import java.nio.charset.Charset;
+import java.util.concurrent.TimeUnit;
+import org.testng.annotations.*;
+
+import static org.testng.Assert.assertEquals;
+
+public class LoginTest {
+    public WebDriver driver;
+    @BeforeMethod
+    public void setUp() throws Exception {
+
+        //setUp()用于设置初始化工作，在每一个测试用例前先被执行
+        driver = new ChromeDriver();
+        driver.get("https://ctalentlitetest.fsgplus.com");
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+
+        //读取csv文件
+        String filePath = "./datafile/userinfo.csv";
+        CsvReader reader = new CsvReader(filePath, ',', Charset.forName("GBK"));
+        reader.readHeaders(); // 跳过表头, 如果需要表头的话，不要写这句。
+
+        while (reader.readRecord()) {
+            // 读取一条记录
+            System.out.println(reader.getRawRecord());
+            // 按列名读取这条记录的值
+            String username = reader.get("username");
+            String password = reader.get("password");
+            //调用登录方法
+            Module.login(driver,username,password);
+            Thread.sleep(2000);
+        }
+        }
+    @Test
+    //验证登录是否成功
+    public void Hright() throws InterruptedException {
+        //driver.get(baseUrl + "/");
+        Thread.sleep(2000);
+        assertEquals(driver.getTitle(),"HRIGHT");
+    }
+    @AfterMethod
+    public void tearDown() throws Exception {
+        driver.quit();
+    }
+    }
+
+

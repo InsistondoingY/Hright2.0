@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc982713-ee23-4597-a425-41a77036a350" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$" beforeDir="true" afterPath="$PROJECT_DIR$" afterDir="true" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/hright/test/LoginTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1080">
+              <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/hright/demo/Module.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/hright/demo/Baidu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/hright/test/AttendanceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datafile/userinfo.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/hright/demo/MouseDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/hright/demo/Keyboard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/hright/test/RosterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1836">
+              <caret line="79" column="18" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Singleton" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/datafile/userinfo.csv" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hright/demo/assertMethod.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hright/demo/Login.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hright/demo/Logintest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hright/demo/LoginTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hright/demo/Module.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hright/test/RosterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hright/test/Baidu.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hright/test/Login.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hright/test/forgetpassword.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hright/test/LoginTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hright/demo/Keyboard.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hright/demo/MouseDemo.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hright/demo/Baidu.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hright/test/AttendanceTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Hright" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Hright" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hright" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hright" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hright" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\seleniumProject\Hright\src\test\java\com\hright\test" />
+      <recent name="E:\seleniumProject\Hright\src\test\java\com\hright\demo" />
+      <recent name="E:\seleniumProject\Hright\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\seleniumProject\Hright" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Keyboard">
+    <configuration name="Keyboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hright.demo.Keyboard" />
+      <module name="Hright" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hright.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MouseDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hright.demo.MouseDemo" />
+      <module name="Hright" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hright.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.hright.test in Hright" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hright" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hright.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hright.test" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AttendanceTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Hright" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hright.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hright.test" />
+      <option name="MAIN_CLASS_NAME" value="com.hright.test.AttendanceTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RosterTest.updateEmpno" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Hright" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hright.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hright.test" />
+      <option name="MAIN_CLASS_NAME" value="com.hright.test.RosterTest" />
+      <option name="METHOD_NAME" value="updateEmpno" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MouseDemo" />
+      <item itemvalue="Application.Keyboard" />
+      <item itemvalue="JUnit.com.hright.test in Hright" />
+      <item itemvalue="TestNG.RosterTest.updateEmpno" />
+      <item itemvalue="TestNG.AttendanceTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Keyboard" />
+        <item itemvalue="Application.MouseDemo" />
+        <item itemvalue="TestNG.AttendanceTest" />
+        <item itemvalue="JUnit.com.hright.test in Hright" />
+        <item itemvalue="TestNG.RosterTest.updateEmpno" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\sfsc\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\seleniumProject\Hright" />
+          <option name="myCopyRoot" value="E:\seleniumProject\Hright" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\seleniumProject\Hright" />
+          <option name="myCopyRoot" value="E:\seleniumProject\Hright" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc982713-ee23-4597-a425-41a77036a350" name="Default Changelist" comment="" />
+      <created>1564107189395</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564107189395</updated>
+      <workItem from="1564107193127" duration="11787000" />
+      <workItem from="1564364655669" duration="15956000" />
+      <workItem from="1564448346818" duration="7615000" />
+      <workItem from="1564534364169" duration="8065000" />
+      <workItem from="1564621604074" duration="9392000" />
+      <workItem from="1564645983316" duration="3943000" />
+      <workItem from="1564707991184" duration="8185000" />
+      <workItem from="1565316695825" duration="5206000" />
+      <workItem from="1565334485421" duration="5267000" />
+      <workItem from="1565571485683" duration="9067000" />
+      <workItem from="1565676723407" duration="596000" />
+      <workItem from="1565746912800" duration="3955000" />
+      <workItem from="1565830534264" duration="2602000" />
+      <workItem from="1565939089460" duration="586000" />
+      <workItem from="1566183016417" duration="1320000" />
+      <workItem from="1566281546493" duration="5575000" />
+      <workItem from="1566353047933" duration="1822000" />
+      <workItem from="1566441229840" duration="1492000" />
+      <workItem from="1567147947877" duration="807000" />
+      <workItem from="1567496575973" duration="594000" />
+      <workItem from="1567757426720" duration="596000" />
+      <workItem from="1568167664805" duration="751000" />
+      <workItem from="1571121709226" duration="4000" />
+      <workItem from="1571121823405" duration="925000" />
+      <workItem from="1571125166506" duration="2615000" />
+      <workItem from="1571211685956" duration="778000" />
+      <workItem from="1572484254235" duration="769000" />
+      <workItem from="1573008296664" duration="7427000" />
+      <workItem from="1573030229934" duration="216000" />
+      <workItem from="1573090702750" duration="3206000" />
+      <workItem from="1573095648523" duration="2969000" />
+    </task>
+    <task id="LOCAL-00001">
+      <created>1573106181352</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573106181352</updated>
+    </task>
+    <task id="LOCAL-00002">
+      <created>1573107039042</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573107039042</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="LoginTest - 2019.08.20 at 14h 48m 45s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="com_hright_test - 2019.11.06 at 10h 53m 52s.xml">
+      <configuration name="com.hright.test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="com_hright_test - 2019.11.06 at 11h 02m 48s.xml">
+      <configuration name="com.hright.test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="com_hright_test - 2019.11.06 at 11h 05m 58s.xml">
+      <configuration name="com.hright.test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RosterTest - 2019.11.06 at 14h 08m 41s.xml">
+      <configuration name="RosterTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RosterTest_updateEmpno - 2019.11.06 at 14h 09m 51s.xml">
+      <configuration name="RosterTest.updateEmpno" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="com_hright_test_in_Hright - 2019.11.06 at 14h 13m 20s.xml">
+      <configuration name="com.hright.test in Hright" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_hright_test_in_Hright - 2019.11.06 at 14h 13m 54s.xml">
+      <configuration name="com.hright.test in Hright" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_hright_test_in_Hright - 2019.11.06 at 14h 14m 28s.xml">
+      <configuration name="com.hright.test in Hright" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AttendanceTest - 2019.11.06 at 14h 16m 11s.xml">
+      <configuration name="AttendanceTest" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="124088000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2246596" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24549918" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" visible="true" weight="0.21440262" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49924356" visible="true" weight="0.21440262" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/datafile/info.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hright/demo/assertMethod.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hright/demo/SOAFramework4Suite.java" />
+    <entry file="jar://$USER_HOME$/.m2/repository/org/seleniumhq/selenium/selenium-api/3.0.1/selenium-api-3.0.1.jar!/org/openqa/selenium/By.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hright/test/LeaveRecordsTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hright/test/Baidu.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hright/test/Login.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hright/demo/forgetpassword.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hright/test/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datafile/userinfo.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hright/demo/MouseDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hright/demo/Keyboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hright/test/RosterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="79" column="18" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hright/test/AttendanceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hright/demo/Baidu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hright/demo/Module.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="idea:idea" />
+    <option value="clear compile" />
+  </component>
+</project>

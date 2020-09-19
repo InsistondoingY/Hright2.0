@@ -1,0 +1,24 @@
+package com.hright.demo;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class Module {
+    //登录方法
+    public static void login(WebDriver driver,String username,String password){
+
+        driver.findElement(By.id ("userCode")).clear();
+        driver.findElement(By.id ("userCode")).sendKeys(username);
+        driver.findElement(By.id ("password")).clear();
+        driver.findElement(By.id ("password")).sendKeys(password);
+        driver.findElement(By.cssSelector("span > button")).click();
+        driver.findElement(By.id ("userCode"));
+
+    }
+    //退出方法
+    public static void logout(WebDriver driver)throws InterruptedException{
+        driver.findElement(By.xpath("/html/body/section/div[1]/div[2]/div[1]/div/div/div[2]/div/a[2]/span")).click();
+        Thread.sleep(1500);
+        driver.findElement(By.cssSelector(".ant-modal-confirm-btns > .ant-btn-primary")).click();
+    }
+}

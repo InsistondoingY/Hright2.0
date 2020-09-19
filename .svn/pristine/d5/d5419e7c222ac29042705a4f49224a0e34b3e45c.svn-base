@@ -1,0 +1,116 @@
+package com.hright.test;
+
+import com.csvreader.CsvReader;
+import com.hright.demo.Module;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.*;
+
+import java.nio.charset.Charset;
+import java.util.concurrent.TimeUnit;
+import static org.testng.Assert.assertEquals;
+
+public class RosterTest {
+    //员工工号、工作单位
+    private String empNo = "100880";
+    private String workName = "测试工作单位";
+    private String quit = "离职";
+    private WebDriver driver;
+    @BeforeMethod
+    //setUp()用于设置初始化工作，在每一个测试用例前先被执行
+    public void setUp() throws Exception {
+        driver = new ChromeDriver();
+        driver.get("https://ctalentlitetest.fsgplus.com");
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        //读取csv文件
+        String filePath = "./datafile/userinfo.csv";
+        CsvReader reader = new CsvReader(filePath, ',', Charset.forName("GBK"));
+        reader.readHeaders(); // 跳过表头, 如果需要表头的话，不要写这句。
+
+        while (reader.readRecord()) {
+            // 读取一条记录
+            System.out.println(reader.getRawRecord());
+            // 按列名读取这条记录的值
+            String username = reader.get("username");
+            String password = reader.get("password");
+            //调用登录方法
+            Module.login(driver,username,password);
+            System.out.println("登陆成功!");
+            Thread.sleep(2000);
+            break;
+        }
+    }
+    @Test
+    //查询员工工号
+    public void selectEmpno() throws Exception{
+        //打开花名册页面
+        driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div/div/div/div[1]/div[1]/div/ul/li[2]/div/span/span")).click();
+        driver.findElement(By.linkText("花名册")).click();
+        Thread.sleep(2000);
+        //点击查询按钮
+        driver.findElement(By.cssSelector(".anticon-search > svg")).click();
+        Thread.sleep(2000);
+        //单机输入框，输入查询信息
+        driver.findElement(By.cssSelector(".ant-col-md-7:nth-child(2) .ant-input")).click();
+        driver.findElement(By.cssSelector(".ant-col-md-7:nth-child(2) .ant-input")).sendKeys(empNo);
+        driver.findElement(By.cssSelector(".ant-btn-primary")).click();
+        Thread.sleep(2000);
+        //验证查询出的工号是否相同
+        assertEquals(driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div/div/div/div[1]/div[2]/div[2]/div/div/div/div/div/div[2]/div/div/div/div/div/div/div/div[1]/div/table/tbody/tr/td[1]")).getText(),empNo);
+    }
+    @Test
+    //修改员工工作单位并验证是否修改成功
+    public void updateEmpno() throws Exception{
+        driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div/div/div/div[1]/div[1]/div/ul/li[2]/div/span/span")).click();
+        driver.findElement(By.linkText("花名册")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div/div/div/div[1]/div[2]/div[2]/div/div/div/div/div/div[2]/div/div/div/div/div/div/div/div[2]/div/div/table/tbody/tr[1]/td/span/a[1]")).click();
+        driver.findElement(By.cssSelector("#Company")).clear();
+        driver.findElement(By.cssSelector("#Company")).sendKeys(workName);
+        Thread.sleep(2000);
+        //下拉到页面底部
+        String script = "return arguments[0].scrollIntoView();";
+        WebElement element = driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div/div[2]/div[3]/div/button[2]"));
+        ((JavascriptExecutor) driver).executeScript(script, element);
+        Thread.sleep(1000);
+        //点击确定保存更改
+        driver.findElement(By.xpath("/html/body/div[3]/div/div[2]/div/div[2]/div[3]/div/button[2]")).click();
+        Thread.sleep(2000);
+        //验证更改的工作单位是否修改成功
+        driver.findElement(By.cssSelector(".anticon-search > svg")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.cssSelector(".ant-col-md-7:nth-child(2) .ant-input")).click();
+        driver.findElement(By.cssSelector(".ant-col-md-7:nth-child(2) .ant-input")).sendKeys(empNo);
+        driver.findElement(By.cssSelector(".ant-btn-primary")).click();
+        Thread.sleep(2000);
+        //校验工号为100880的工作单位是否修改成功
+        assertEquals(driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div/div/div/div[1]/div[2]/div[2]/div/div/div/div/div/div[2]/div/div/div/div/div/div/div/div[1]/div/table/tbody/tr/td[4]")).getText(),workName);
+    }
+    @Test
+    //验证筛选框功能是否正常
+    public void screen() throws Exception {
+        driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div/div/div/div[1]/div[1]/div/ul/li[2]/div/span/span")).click();
+        driver.findElement(By.linkText("花名册")).click();
+        Thread.sleep(2000);
+        //点击筛选框
+        driver.findElement(By.cssSelector(".ant-select-selection-selected-value")).click();
+        Thread.sleep(1000);
+        //点击离职按钮
+        driver.findElement(By.xpath("//div[3]/div/div/div/ul/li[2]")).click();
+        Thread.sleep(1000);
+        //校验筛选出的信息是否全部为离职员工信息
+        assertEquals(driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div/div/div/div[1]/div[2]/div[2]/div/div/div/div/div/div[2]/div/div/div/div/div/div/div/div[1]/div/table/tbody/tr[1]/td[3]")).getText(),quit);
+//        String screnn = driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div/div/div/div[1]/div[2]/div[2]/div/div/div/div/div/div[2]/div/div/div/div/div/div/div/div[1]/div/table/tbody/tr[1]/td[3]")).getText();
+//        System.out.println("----");
+//        System.out.println(screnn);
+    }
+    @AfterMethod
+    public void tearDown() throws Exception {
+        Thread.sleep(2000);
+        driver.quit();
+    }
+}

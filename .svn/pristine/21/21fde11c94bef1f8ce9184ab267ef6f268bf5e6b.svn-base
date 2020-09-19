@@ -1,0 +1,82 @@
+package com.hright.test;
+
+import com.csvreader.CsvReader;
+import com.hright.demo.Module;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import java.nio.charset.Charset;
+import java.util.concurrent.TimeUnit;
+
+import static org.testng.Assert.assertEquals;
+
+public class AttendanceTest {
+    private String LeaveType = "年假";
+    private String overtime = "周末加班";
+    private WebDriver driver;
+    @BeforeMethod
+    //setUp()用于设置初始化工作，在每一个测试用例前先被执行
+    public void setUp() throws Exception {
+        driver = new ChromeDriver();
+        driver.get("https://ctalentlitetest.fsgplus.com");
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        //读取csv文件
+        String filePath = "./datafile/userinfo.csv";
+        CsvReader reader = new CsvReader(filePath, ',', Charset.forName("GBK"));
+        reader.readHeaders(); // 跳过表头, 如果需要表头的话，不要写这句。
+
+        while (reader.readRecord()) {
+            // 读取一条记录
+            System.out.println(reader.getRawRecord());
+            // 按列名读取这条记录的值
+            String username = reader.get("username");
+            String password = reader.get("password");
+            //调用登录方法
+            Module.login(driver,username,password);
+            System.out.println("登陆成功!");
+            Thread.sleep(2000);
+            break;
+        }
+    }
+    @Test
+    //请假记录
+    public void selectLeave() throws Exception{
+        driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div/div/div/div[1]/div[1]/div/ul/li[5]/div/span/span")).click();
+        driver.findElement(By.linkText("请假记录")).click();
+        Thread.sleep(1000);
+        //点击请假类型
+        driver.findElement(By.cssSelector(".ant-select-selection__placeholder")).click();
+        //选择年假类型（1年假、2事假，具体以页面信息为准）
+        driver.findElement(By.xpath("//div[3]/div/div/div/ul/li[1]")).click();
+        driver.findElement(By.cssSelector(".ant-btn-primary")).click();
+        Thread.sleep(2000);
+        //验证查询出的是否为年假
+        assertEquals(driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div/div/div/div[1]/div[2]/div[2]/div/div/div/div/div/div/div/div/div/div/div[1]/div/table/tbody/tr/td[3]")).getText(),LeaveType);
+    }
+    @Test
+    //加班记录n
+
+    public void selectOvertime() throws Exception{
+        driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div/div/div/div[1]/div[1]/div/ul/li[5]/div/span/span")).click();
+        driver.findElement(By.linkText("加班记录")).click();
+        Thread.sleep(1000);
+        //点击请假类型
+        driver.findElement(By.cssSelector(".ant-select-selection__placeholder")).click();
+        //选择加班类型（1工作日加班、2周末加班，具体以页面信息为准）
+        driver.findElement(By.xpath("//div[3]/div/div/div/ul/li[2]")).click();
+        driver.findElement(By.cssSelector(".ant-btn-primary")).click();
+        Thread.sleep(2000);
+        //验证查询出的是否为年假
+        assertEquals(driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div/div/div/div[1]/div[2]/div[2]/div/div/div/div/div/div/div/div/div/div/div[1]/div/table/tbody/tr/td[3]")).getText(),overtime);
+    }
+    @AfterMethod
+    public void tearDown() throws Exception {
+        Thread.sleep(2000);
+        driver.quit();
+    }
+}

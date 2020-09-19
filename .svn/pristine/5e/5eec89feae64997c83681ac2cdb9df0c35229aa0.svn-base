@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="13968" started-at="2019-07-31T08:58:22Z" finished-at="2019-07-31T08:58:36Z">
+    <groups>
+    </groups>
+    <test name="Hright" duration-ms="13968" started-at="2019-07-31T08:58:22Z" finished-at="2019-07-31T08:58:36Z">
+      <class name="com.hright.test.Baidu">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hright.test.Baidu@11531931]" name="setUp" is-config="true" duration-ms="4854" started-at="2019-07-31T16:58:22Z" finished-at="2019-07-31T16:58:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSearchJunit()[pri:0, instance:com.hright.test.Baidu@11531931]" name="testSearchJunit" duration-ms="4342" started-at="2019-07-31T16:58:27Z" finished-at="2019-07-31T16:58:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchJunit -->
+        <test-method status="PASS" signature="testSearchWebDriver()[pri:0, instance:com.hright.test.Baidu@11531931]" name="testSearchWebDriver" duration-ms="2663" started-at="2019-07-31T16:58:31Z" finished-at="2019-07-31T16:58:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchWebDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hright.test.Baidu@11531931]" name="tearDown" is-config="true" duration-ms="2073" started-at="2019-07-31T16:58:34Z" finished-at="2019-07-31T16:58:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hright.test.Baidu -->
+    </test> <!-- Hright -->
+  </suite> <!-- Default Suite -->
+</testng-results>
