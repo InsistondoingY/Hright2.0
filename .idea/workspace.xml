@@ -38,7 +38,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -127,9 +127,74 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Hright" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Hright" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="Hright" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Hright" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Hright" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Hright" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Hright" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Hright" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Hright" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Hright" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Hright" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Hright" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="hright" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Hright" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Hright" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="hright" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="demo" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Hright" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Hright" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="hright" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -142,7 +207,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -332,7 +397,9 @@
       <workItem from="1600176650076" duration="10631000" />
       <workItem from="1600261857251" duration="9795000" />
       <workItem from="1600352296825" duration="2596000" />
-      <workItem from="1600496761933" duration="14800000" />
+      <workItem from="1600496761933" duration="16231000" />
+      <workItem from="1600515966708" duration="40000" />
+      <workItem from="1600516124630" duration="177000" />
     </task>
     <servers />
   </component>
@@ -369,12 +436,21 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107717000" />
+    <option name="totallyTimeSpent" value="109365000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1721" height="1041" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19362597" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19843656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="设计器" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -388,10 +464,10 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.25714287" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32967034" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32967034" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.5857143" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.35384616" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32857144" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -412,13 +488,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hright/logger/LoggerControler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -467,12 +536,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/error/1600498673395/1600498673396.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/error/1600498961530/20200919_150241.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/error/1600498673395/1600498673396.jpg" />
+    <entry file="file://$PROJECT_DIR$/error/1600498961530/20200919_150241.png" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hright/drivers/SeleniumDrivers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="832">
@@ -483,21 +548,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/error/1600499493325/1600499493326.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/error/1600499493325/20200919_151133.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/error/20200919_153038/20200919_153038.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/error/20200919_153259/20200919_153259.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/error/2020-09-19 15-47-10/2020-09-19 15-47-10.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/error/1600499493325/1600499493326.jpg" />
+    <entry file="file://$PROJECT_DIR$/error/1600499493325/20200919_151133.png" />
+    <entry file="file://$PROJECT_DIR$/error/20200919_153038/20200919_153038.jpg" />
+    <entry file="file://$PROJECT_DIR$/error/20200919_153259/20200919_153259.jpg" />
+    <entry file="file://$PROJECT_DIR$/error/2020-09-19 15-47-10/2020-09-19 15-47-10.jpg" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hright/tools/MyFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -522,15 +577,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/error/2020-09-19 15-51-14/2020-09-19 15-51-14.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/error/2020-09-19 15-55-15/2020-09-19 15-55-15.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/error/2020-09-19 15-58-09/2020-09-19 15-58-09.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/error/2020-09-19 15-51-14/2020-09-19 15-51-14.jpg" />
+    <entry file="file://$PROJECT_DIR$/error/2020-09-19 15-55-15/2020-09-19 15-55-15.jpg" />
+    <entry file="file://$PROJECT_DIR$/error/2020-09-19 15-58-09/2020-09-19 15-58-09.jpg" />
     <entry file="file://$PROJECT_DIR$/logs/log4j.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
@@ -538,15 +587,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/error/2020-09-19 16-43-03/2020-09-19 16-43-03.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/error/2020-09-19 16-43-22/2020-09-19 16-43-22.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/error/2020-09-19 16-43-41/2020-09-19 16-43-41.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/error/2020-09-19 16-43-03/2020-09-19 16-43-03.jpg" />
+    <entry file="file://$PROJECT_DIR$/error/2020-09-19 16-43-22/2020-09-19 16-43-22.jpg" />
+    <entry file="file://$PROJECT_DIR$/error/2020-09-19 16-43-41/2020-09-19 16-43-41.jpg" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hright/action/Action.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -567,12 +610,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/error/2020-09-19 16-47-31/2020-09-19 16-47-31.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/error/2020-09-19 16-47-50/2020-09-19 16-47-50.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/error/2020-09-19 16-47-31/2020-09-19 16-47-31.jpg" />
+    <entry file="file://$PROJECT_DIR$/error/2020-09-19 16-47-50/2020-09-19 16-47-50.jpg" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hright/tools/DateFormat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
@@ -583,30 +622,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/error/2020-09-19/2020-09-19 16-52-21.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/error/2020-09-19/2020-09-19 16-52-40.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/error/2020-09-19/2020-09-19 16-52-59.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/error/2020-09-19/2020-09-19 17-00-05.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/error/2020-09-19/2020-09-19 17-06-16.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/error/2020-09-19/2020-09-19 17-09-45.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/error/2020-09-19/2020-09-19 17-09-55.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/error/2020-09-19/2020-09-19 17-10-03.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/error/2020-09-19/2020-09-19 16-52-21.jpg" />
+    <entry file="file://$PROJECT_DIR$/error/2020-09-19/2020-09-19 16-52-40.jpg" />
+    <entry file="file://$PROJECT_DIR$/error/2020-09-19/2020-09-19 16-52-59.jpg" />
+    <entry file="file://$PROJECT_DIR$/error/2020-09-19/2020-09-19 17-00-05.jpg" />
+    <entry file="file://$PROJECT_DIR$/error/2020-09-19/2020-09-19 17-06-16.jpg" />
+    <entry file="file://$PROJECT_DIR$/error/2020-09-19/2020-09-19 17-09-45.jpg" />
+    <entry file="file://$PROJECT_DIR$/error/2020-09-19/2020-09-19 17-09-55.jpg" />
+    <entry file="file://$PROJECT_DIR$/error/2020-09-19/2020-09-19 17-10-03.jpg" />
     <entry file="file://$PROJECT_DIR$/config/config.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
@@ -704,9 +727,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/error/2020-09-19/2020-09-19 18-39-52.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/error/2020-09-19/2020-09-19 18-39-52.jpg" />
     <entry file="file://$PROJECT_DIR$/error/2020-09-19/2020-09-19 18-58-07.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -727,6 +748,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hright/demo/TestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
