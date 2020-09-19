@@ -835,3 +835,40 @@
 2020-09-19 18:58:08,367 INFO main [com.hright.testng.TestResultListener]onFinish(line:64)skipTest = testAssert
 2020-09-19 18:58:08,367 INFO main [com.hright.testng.TestResultListener]onFinish(line:78)failedTest = testAssert
 2020-09-19 18:58:08,368 INFO main [com.hright.testng.TestResultListener]onFinish(line:101)Remove repeat Fail Test: testAssert
+2020-09-19 20:53:23,184 INFO main [com.hright.drivers.SeleniumDrivers]info(line:36)你打开了chrome浏览器
+2020-09-19 20:53:33,291 INFO main [com.hright.testng.TestResultListener]onTestStart(line:45)Hright Start
+2020-09-19 20:53:41,400 INFO main [com.hright.testng.TestResultListener]onTestSuccess(line:39)Hright Success
+2020-09-19 20:53:48,497 INFO main [com.hright.drivers.SeleniumDrivers]info(line:36)你打开了chrome浏览器
+2020-09-19 20:54:00,291 INFO main [com.hright.testng.TestResultListener]onTestStart(line:45)VerifyBalance Start
+2020-09-19 20:54:10,175 INFO main [com.hright.drivers.SeleniumDrivers]info(line:36)缓存余额（原有余额）b：192.0
+2020-09-19 20:54:14,575 INFO main [com.hright.drivers.SeleniumDrivers]info(line:36)
+2020-09-19 20:54:16,578 INFO main [com.hright.testng.TestngRetry]retry(line:32)Retry for [VerifyBalance] on class [com.hright.test.LeaveBalanceTest] Retry 1 times
+2020-09-19 20:54:16,580 INFO main [com.hright.testng.TestResultListener]onTestSkipped(line:33)VerifyBalance Skipped
+2020-09-19 20:54:23,771 INFO main [com.hright.drivers.SeleniumDrivers]info(line:36)你打开了chrome浏览器
+2020-09-19 20:54:37,155 INFO main [com.hright.testng.TestResultListener]onTestStart(line:45)VerifyBalance Start
+2020-09-19 20:54:48,756 INFO main [com.hright.drivers.SeleniumDrivers]info(line:36)缓存余额（原有余额）b：194.0
+2020-09-19 20:54:52,868 INFO main [com.hright.drivers.SeleniumDrivers]info(line:36)196.00
+2020-09-19 20:54:54,869 INFO main [com.hright.drivers.SeleniumDrivers]info(line:36)（实际）最新余额b1：196.0
+2020-09-19 20:54:54,875 INFO main [com.hright.drivers.SeleniumDrivers]info(line:36)(期望值)原有余额+2 b3：196.0
+2020-09-19 20:54:54,884 INFO main [com.hright.testng.TestResultListener]onTestSuccess(line:39)VerifyBalance Success
+2020-09-19 20:54:56,036 INFO main [com.hright.testng.TestResultListener]onTestStart(line:45)testAssert Start
+2020-09-19 20:55:01,628 INFO main [com.hright.drivers.SeleniumDrivers]info(line:36)你打开了chrome浏览器
+2020-09-19 20:55:03,947 INFO main [com.hright.testng.TestngRetry]retry(line:32)Retry for [testAssert] on class [com.hright.test.MyAssertTest] Retry 1 times
+2020-09-19 20:55:03,947 INFO main [com.hright.testng.TestResultListener]onTestSkipped(line:33)testAssert Skipped
+2020-09-19 20:55:05,357 INFO main [com.hright.testng.TestResultListener]onTestStart(line:45)testAssert Start
+2020-09-19 20:55:11,456 INFO main [com.hright.drivers.SeleniumDrivers]info(line:36)你打开了chrome浏览器
+2020-09-19 20:55:12,759 INFO main [com.hright.testng.TestngRetry]retry(line:32)Retry for [testAssert] on class [com.hright.test.MyAssertTest] Retry 2 times
+2020-09-19 20:55:12,760 INFO main [com.hright.testng.TestResultListener]onTestSkipped(line:33)testAssert Skipped
+2020-09-19 20:55:14,173 INFO main [com.hright.testng.TestResultListener]onTestStart(line:45)testAssert Start
+2020-09-19 20:55:19,796 INFO main [com.hright.drivers.SeleniumDrivers]info(line:36)你打开了chrome浏览器
+2020-09-19 20:55:23,164 INFO main [com.hright.drivers.SeleniumDrivers]info(line:36)当前时间为：2020-09-19
+2020-09-19 20:55:23,166 INFO main [com.hright.drivers.SeleniumDrivers]info(line:36)当前时间为：2020-09-19
+2020-09-19 20:55:23,168 INFO main [com.hright.drivers.SeleniumDrivers]info(line:36)当前时间为：2020-09-19 20-55-23
+2020-09-19 20:55:23,240 INFO main [com.hright.testng.TestResultListener]onTestFailure(line:26)testAssert Failure
+2020-09-19 20:55:24,914 INFO main [com.hright.testng.TestResultListener]onFinish(line:57)PassedTests = VerifyBalance
+2020-09-19 20:55:24,915 INFO main [com.hright.testng.TestResultListener]onFinish(line:57)PassedTests = Hright
+2020-09-19 20:55:24,919 INFO main [com.hright.testng.TestResultListener]onFinish(line:64)skipTest = testAssert
+2020-09-19 20:55:24,920 INFO main [com.hright.testng.TestResultListener]onFinish(line:64)skipTest = VerifyBalance
+2020-09-19 20:55:24,920 INFO main [com.hright.testng.TestResultListener]onFinish(line:64)skipTest = testAssert
+2020-09-19 20:55:24,921 INFO main [com.hright.testng.TestResultListener]onFinish(line:78)failedTest = testAssert
+2020-09-19 20:55:24,921 INFO main [com.hright.testng.TestResultListener]onFinish(line:101)Remove repeat Fail Test: testAssert
