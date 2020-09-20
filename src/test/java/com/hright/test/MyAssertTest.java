@@ -18,7 +18,7 @@ public class MyAssertTest {
         WebDriver driver;
         driver= SeleniumDrivers.openBrower("chrome");
         driver.get("https://www.baidu.com");
-        Assert.assertEquals("百度一下你就知道","百度一你就知道");
+        Assert.assertEquals("百度一下你就知道","百度一下你就知道");
 
         //MyAssert.assertTrue(false);
         SeleniumDrivers.closed();
